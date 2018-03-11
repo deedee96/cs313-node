@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mailing Service</title>
+    </head>
+    <body>
+        <form action="/calculator" method="get" onsubmit="validateWeight();">
+            <input name="weight" id="weight" type="number" placeholder="Weight(Oz)" step="0.1">
+            <select name="mail_type">
+                <option value="letters_stamped">Letters(Stamped)</option>
+                <option value="letters_metered">Letters(Metered)</option>
+                <option value="l_env">Large Envelopes (Flats)</option>
+                <option value="package">First-Class Package Service—Retail</option>
+            </select>
+            <br>
+            <input type="submit" value="Check">
+        </form>
+
+    </body>
+</html>
